@@ -8,7 +8,7 @@ template2 = cv2.imread('2.jpg', 0)
 template3 = cv2.imread('3.jpg', 0)
 template4 = cv2.imread('4.jpg', 0)
 templateShapes = [template1, template2, template3, template4]
-thresholds = [0.1, 0.1, 0.1, 0.1]
+thresholds = [0.005, 0.005, 0.005, 0.005]
 
 # Define kernel for morphology operation
 kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5))
